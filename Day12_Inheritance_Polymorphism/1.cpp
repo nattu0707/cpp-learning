@@ -14,3 +14,42 @@
 🕒 日付: 2025-04-11
 ==============================
 */
+#include<iostream>
+using namespace std;
+
+// 親クラス
+class Person {
+protected:
+    string name;
+    int age;
+
+public:
+    Person(string n, int a) {
+        name = n;
+        age = a;
+    }
+};
+
+// 子クラス（Personを継承）
+class Student : public Person {
+private:
+    string school;
+
+public:
+    Student(string n, int a, string s) : Person(n, a) {
+        school = s;
+    }
+
+    void introduce() {
+        cout << "名前: " << name << endl;
+        cout << "年齢: " << age << "歳" << endl;
+        cout << "学校名: " << school << endl;
+    }
+};
+
+int main() {
+    Student s("たろう", 18, "東京高校");
+    s.introduce();
+
+    return 0;
+}
