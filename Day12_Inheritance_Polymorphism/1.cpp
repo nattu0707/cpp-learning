@@ -48,7 +48,7 @@ public:
 };
 
 int main() {
-    Student s("たろう", 18, "東京高校");
+    Student s("たろうさん", 18, "東京高校");
     s.introduce();
 
     return 0;
