@@ -13,5 +13,11 @@
 
 🕒 日付: 2025-04-11
 ==============================
-
 */
+#include<iostream>
+#include<string>
+using namespace std;
+
+class Shape{
+void area()
+}

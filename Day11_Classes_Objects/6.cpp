@@ -26,13 +26,13 @@
 using namespace std;
 
 class MenuItem {
-private:
+private:              //開発者間のルール！書き換えないように示すためのもの
     string name;
     int value;
     int stock;
 
 public:
-    MenuItem(string n, int v, int s) {
+    MenuItem(string n, int v, int s) {//コンストラクタ 
         name = n;
         value = v;
         stock = s;
