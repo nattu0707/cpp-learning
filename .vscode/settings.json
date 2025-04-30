@@ -1,6 +1,11 @@
 {
     "files.associations": {
         "xstring": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "romantointeger": "cpp",
+        "vector": "cpp",
+        "xutility": "cpp",
+        "utility": "cpp",
+        "queue": "cpp"
     }
 }
